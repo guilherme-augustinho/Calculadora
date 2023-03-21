@@ -1,4 +1,4 @@
-import Funcoes1, Funcoes2
+import Funcoes1, Funcoes2, FuncoesVini
 
 while True:
     try:
@@ -17,7 +17,7 @@ while True:
 
         while True:
             try:
-                op = int(input('Qual operação você deseja?\n 1. Somar\n 2. Subtrair\n 3. Multiplicar\n 4. Dividir\n> '))
+                op = int(input('Qual operação você deseja?\n 1. Somar\n 2. Subtrair\n 3. Multiplicar\n 4. Dividir\n> 5. Hipotenusa\n> '))
                 break
             except ValueError:
                 print('Digite apenas numeros!')
@@ -34,6 +34,8 @@ while True:
         elif op == 4:
             print('Resultado:',Funcoes2.divisao(valor1,valor2))
             break
+        elif op == 5:
+            print('Resultado: ',FuncoesVini.hipo(valor1,valor2) )
 
     except ZeroDivisionError:
         print('Impossivel dividir por zero!')
