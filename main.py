@@ -10,7 +10,6 @@ while True:
         # Pega os dois valores usando a função return_float
         valor1 = return_float('Digite o primeiro valor: ')
         valor2 = return_float('Digite o segundo valor: ')
-
         # Pega um valor digitado pelo usúario usuando a função return_int
         match return_int('Qual operação você deseja?\n 1. Somar\n 2. Subtrair\n 3. Multiplicar\n 4. Dividir\n 5. Hipotenusa\n> '):
             # Caso o valor digitado seja 1
