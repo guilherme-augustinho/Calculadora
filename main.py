@@ -35,7 +35,8 @@ while True:
             print('Resultado:',Funcoes2.divisao(valor1,valor2))
             break
         elif op == 5:
-            print('Resultado: ',FuncoesVini.hipo(valor1,valor2) )
+            print('Resultado: ',FuncoesVini.hipo(valor1,valor2))
+            break
 
     except ZeroDivisionError:
         print('Impossivel dividir por zero!')
